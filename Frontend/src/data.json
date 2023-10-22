@@ -1,4 +1,12 @@
 [
-   
+    {
+        "_id": "65358330533298d3c4be5012",
+        "name": "Avengers",
+        "description": "After the devastating events of Avengers: Infinity War (2018), the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to reverse Thanos' actions and restore balance to the universe..",
+        "imageUrl": "https://t0.gstatic.com/licensed-image?q=tbn:ANd9GcRIoJsWXc98ow2fzRPpePpwMgb2B1z7kJO8NRMlavkkxndJKUczRtUfqvbKGCk4eq8r",
+        "Genre": "Action",
+        "Rating": 7.6
+        
+      } 
     
 ]

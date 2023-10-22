@@ -48,7 +48,7 @@ const CartList = () => {
  
   
   <h3>Total: {cartData.reduce((acc,e)=>{
-    return acc+e.price
+    return acc+e.Rating
   },0)}$</h3>
   <button onClick={handleResetCart}>checkout</button>
 </div>

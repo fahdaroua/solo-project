@@ -4,9 +4,9 @@ const ProductCard = ({product ,switchView}) => {
   const handleSubmit = ()=> {
     axios.post("http://localhost:5000/api/cart",{
       name: product.name,
-      Rating:product.Rating,
-      productId : product._id
-      
+      ranking:product.ranking,
+      productId : product._id,
+      Genre : product.Genre,
     })
     .then(({data})=>{
       console.log("added", data)
@@ -23,7 +23,7 @@ const ProductCard = ({product ,switchView}) => {
     <div className="product-card-buttons">
         <button>Update Product</button>
         <button >Delete Product</button>
-        
+       
     </div>
 </div>
   )

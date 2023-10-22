@@ -3,7 +3,7 @@ const mongoUri = "mongodb://127.0.0.1/movieranking";
 mongoose.connect(mongoUri, { useUnifiedTopology: true, useNewUrlParser: true }).then(()=>{console.log("db mongo connected")}).catch(err=>console.log(err));
 const db = mongoose.connection;
 const Product = require("./Product")
-const Cart = require("./cart")
+
 const getAllProducts = () => {
 return Product.find()
 
